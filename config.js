@@ -7,23 +7,24 @@ export const seo = {
 
 export const data = [
   {
-    title: "Your title",
+    title: "DevOps at Cigna",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempora dolorem doloribus repudiandae, possimus quod quas. Ipsum culpa repellat dolorem vero odit iste delectus id, sed iure facere, animi suscipit.",
-    image: "/code-review-bro.png",
+      "DevOps Engineer at Cigna in Bloomfield, Connecticut (2019-2019)",
+    image: "/cigna.png",
   },
   {
-    title: "Your title",
+    title: "Software Developer with TCS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempora dolorem doloribus repudiandae, possimus quod quas. Ipsum culpa repellat dolorem vero odit iste delectus id, sed iure facere, animi suscipit.",
-    image: "/code-review-bro.png",
+      "Software Developer with Tata Consultancy Services (2019-2020)",
+    image: "/tcs_logo.png",
   },
   {
-    title: "Your title",
+    title: "Bachelors in Software Engineering",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempora dolorem doloribus repudiandae, possimus quod quas. Ipsum culpa repellat dolorem vero odit iste delectus id, sed iure facere, animi suscipit.",
-    image: "/code-review-bro.png",
+      "New England Institute of Technology (Oct. 2018)",
+    image: "/neit.png",
   },
+
 ]
 
 export const MAX_WIDTH = "1440px"

@@ -14,23 +14,7 @@ const Home = () => {
 
   return (
     <>
-      <NextSeo
-        title={title}
-        description={description}
-        canonical={seo.canonical}
-        openGraph={{
-          title,
-          description,
-          images: [
-            {
-              url: `${seo.canonical}bighead.svg`,
-              width: "350px",
-              height: "350px",
-              alt: "avatar bigheads",
-            },
-          ],
-        }}
-      />
+
 
       <Box
         as="section"
@@ -40,48 +24,29 @@ const Home = () => {
         textAlign="center"
         py="4"
       >
-        <NextImage
-          src="/bighead.svg"
-          width="350"
-          height="350"
-          alt="avatar bigheads"
-          placeholder="blur"
-          blurDataURL="L5I~of#i004mgjw]-4XA00?wL#xu"
-          priority
-        />
+        
         <Box>
           <Heading as="h1" fontSize="2xl" fontWeight="500" py="2">
-            Hi, I'm John Doe{" "}
-            <span role="img" aria-label="hand">
-              👋🏻
-            </span>
+            Hey, I'm Brendan McNamara
           </Heading>
           <Heading fontSize={["3xl", "4xl"]} fontWeight="700">
             <Text as="span" color={color}>
-              Building
+              Developing
             </Text>{" "}
-            digital products, Brands, And experience.
+            seamless deployment experiences for companies.
           </Heading>
           <Text py="4">
             A{" "}
             <Text as="span" fontWeight="600">
-              web designer
+              DevOps
             </Text>{" "}
             and{" "}
             <Text as="span" fontWeight="600">
-              front-end web developer
+              Software Engineer
             </Text>{" "}
-            based in the US, I specialize in UI/UX design, Responsive web
-            design, And accessibility.
+            based in the US.
           </Text>
-          <Button
-            colorScheme="telegram"
-            variant="ghost"
-            size="lg"
-            fontSize="20px"
-          >
-            Get in touch
-          </Button>
+          
         </Box>
       </Box>
 
@@ -123,7 +88,16 @@ const Home = () => {
             </Box>
           </Box>
         ))}
+        <Button
+            colorScheme="telegram"
+            variant="ghost"
+            size="lg"
+            fontSize="20px"
+          >
+            Contact me!
+          </Button>
       </Box>
+      
     </>
   )
 }

@@ -5,9 +5,8 @@ import { MAX_WIDTH } from "config"
 
 // Fell free to add your social media accounts!
 const socialAccounts = [
-  { icon: FaGithub, path: "https://github.com/", title: "Github" },
-  { icon: FaLinkedin, path: "https://www.linkedin.com/", title: "Linkedin" },
-  { icon: FaInstagram, path: "https://www.instagram.com/", title: "Instagram" },
+  { icon: FaGithub, path: "https://github.com/bmacs", title: "Github" },
+  { icon: FaLinkedin, path: "https://www.linkedin.com/brendancmcnamara", title: "Linkedin" },
 ]
 
 const Footer = () => (
