@@ -4,6 +4,17 @@ import NextImage from "next/image"
 
 import { seo, data } from "config"
 
+// export const getStaticPropts = async () => {
+//   const res = await fetch('/src/skills.json')
+//   const data = await res.json();
+
+//   return {
+//     props: {
+//       skills: data
+//     }
+//   }
+// }
+
 const Home = () => {
   const color = useColorModeValue("telegram.500", "telegram.400")
 
@@ -49,6 +60,19 @@ const Home = () => {
           
         </Box>
       </Box>
+{/* 
+      <Box
+        as="section"
+        d="flex"
+        alignItems="center"
+        flexDir="column"
+        textAlign={{ base: "center", lg: "left" }}
+        py="4"
+      >
+        {skills.map(skills => (
+          <h3>{ skills }</h3>
+        ))}
+      </Box> */}
 
       <Box
         as="section"
@@ -74,7 +98,7 @@ const Home = () => {
             >
               <NextImage
                 src={item.image}
-                width="500"
+                width="525"
                 height="500"
                 alt={item.title}
                 placeholder="blur"
@@ -82,7 +106,7 @@ const Home = () => {
               />
             </Box>
 
-            <Box w={{ lg: "50%" }}>
+            <Box w={{ lg: "75%" }}>
               <Heading as="h1">{item.title}</Heading>
               <Text py="4">{item.description}</Text>
             </Box>
