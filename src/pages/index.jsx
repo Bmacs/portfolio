@@ -4,6 +4,10 @@ import NextImage from "next/image"
 
 import { seo, data } from "config"
 
+import { socialAccounts } from "src/components/footer/index"
+import { FaLinkedin } from 'react-icons/fa';
+import { Link } from 'next/link';
+
 // export const getStaticPropts = async () => {
 //   const res = await fetch('/src/skills.json')
 //   const data = await res.json();
@@ -66,7 +70,7 @@ const Home = () => {
             size="lg"
             fontSize="20px"
           >
-            Contact me!
+          <a href="https://www.linkedin.com/in/brendancmcnamara/">Contact me!</a>
           </Button>
         </Box>
       </Box>
