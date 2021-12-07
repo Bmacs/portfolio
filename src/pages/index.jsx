@@ -57,7 +57,17 @@ const Home = () => {
             </Text>{" "}
             based in the US.
           </Text>
-          
+          <Heading as="h1" fontSize="2xl" fontWeight="300" py="5">
+            I'm looking for work!
+          </Heading>
+          <Button
+            colorScheme="telegram"
+            variant="ghost"
+            size="lg"
+            fontSize="20px"
+          >
+            Contact me!
+          </Button>
         </Box>
       </Box>
 {/* 
@@ -91,7 +101,7 @@ const Home = () => {
             key={index}
           >
             <Box
-              w={{ base: "80%", lg: "35%" }}
+              w={{ base: "75%", lg: "35%" }}
               mx={{ base: "auto", lg: "0" }}
               pl={{ lg: isOdd(index) == 1 && "10" }}
               pr={{ lg: isOdd(index) == 0 && "10" }}
@@ -106,20 +116,13 @@ const Home = () => {
               />
             </Box>
 
-            <Box w={{ lg: "75%" }}>
+            <Box w={{ lg: "55%" }}>
               <Heading as="h1">{item.title}</Heading>
               <Text py="4">{item.description}</Text>
             </Box>
           </Box>
         ))}
-        <Button
-            colorScheme="telegram"
-            variant="ghost"
-            size="lg"
-            fontSize="20px"
-          >
-            Contact me!
-          </Button>
+        
       </Box>
       
     </>
