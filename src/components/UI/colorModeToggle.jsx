@@ -8,17 +8,17 @@ const DarkModeToggle = () => {
     <>
       <Button
         aria-label={
-          colorMode === "light" ? "switch to dark mode" : "switch to light mode"
+          colorMode === "dark" ? "switch to dark mode" : "switch to light mode"
         }
         ml={{ lg: "6" }}
         variant="ghost"
-        _hover={{ color: "black", bgColor: "white" }}
+        _hover={{ color: "white", bgColor: "black" }}
         onClick={toggleColorMode}
       >
-        {colorMode === "light" ? (
-          <MoonIcon name="moon-icon" />
-        ) : (
+        {colorMode === "dark" ? (
           <SunIcon name="sun-icon" />
+        ) : (
+          <MoonIcon name="moon-icon" />
         )}
       </Button>
     </>
