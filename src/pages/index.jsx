@@ -41,26 +41,28 @@ const Home = () => {
       >
         
         <Box>
-          <Heading as="h1" fontSize="2xl" fontWeight="500" py="2">
+          <Heading as="h1" fontSize="3xl" fontWeight="500" py="4">
             Hey, I'm Brendan McNamara
           </Heading>
-          <Heading fontSize={["3xl", "4xl"]} fontWeight="700">
+          <Heading fontSize={["2xl", "3xl"]} fontWeight="700" py="2" >
             <Text as="span" color={color}>
               Developing
             </Text>{" "}
-            seamless deployment experiences for companies.
+            seamless deployment experiences for companies.  
+          </Heading>
+          <h2>&</h2>
+          <Heading fontSize={["2xl", "3xl"]} fontWeight="700">
+            <Text as="span" color={color}>
+              Advancing
+            </Text>{" "}
+            Web3 technologies as a user and developer.  
           </Heading>
           <Text py="4">
-            A{" "}
-            <Text as="span" fontWeight="600">
-              DevOps
-            </Text>{" "}
-            and{" "}
-            <Text as="span" fontWeight="600">
-              Software Engineer
-            </Text>{" "}
             based in the US.
           </Text>
+
+          <Text color={color}>Solidity / Crypto / NFT's / Linux / DevOps </Text>
+
           <Heading as="h1" fontSize="2xl" fontWeight="300" py="5">
             I'm looking for work!
           </Heading>
